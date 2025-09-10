@@ -5,10 +5,10 @@
         <h2
           class="max-w-2xl text-4xl sm:text-5xl font-semibold text-gray-900 font-display"
         >
-          We ship really fast & often. Here's what's new.
+          我们更新频繁且快速。以下是最新动态。
         </h2>
         <p class="mt-4 max-w-2xl text-gray-600 text-2xl">
-          Actual realtime commits pulled using the GitHub api. 👇 
+          通过GitHub API实时获取的真实提交记录。👇 
         </p>
       </div>
       <ul
@@ -41,7 +41,7 @@
       </ul>
       <div class="mt-4">
         <UButton
-          :label="showMore ? 'Collapse' : 'Expand'"
+          :label="showMore ? '收起' : '展开'"
           color="gray"
           variant="soft"
           @click="showMore = !showMore"

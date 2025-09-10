@@ -3,8 +3,8 @@
     <h2
       class="text-4xl text-slate-900 font-extrabold font-display text-center mb-4 my-24 lg:my-4 px-4 lg:px-0"
     >
-      Are you convinced yet?
-      <span class="md:block">Need more features?</span>
+      您还在犹豫吗？
+      <span class="md:block">需要更多功能？</span>
     </h2>
     <ClientOnly>
       <Vue3Marquee :duration="180" class="marquee-container">
@@ -60,68 +60,68 @@ const targetIsVisible = useElementVisibility(target, {
 
 const experiences = [
   {
-    title: "Always Fresh",
+    title: "持续更新",
     description:
-      "Our codebase is always current and up-to-date. I personally ensure that every piece of code is reviewed before it's published.",
+      "我们的代码库始终保持最新状态。我亲自确保每段代码在发布前都经过审查。",
     color: "bg-rose-500",
     initialPosition: "translate-x-0 lg:translate-x-[80px]",
     initialRotate: "rotate-0 lg:rotate-2",
   },
   {
-    title: "Best Practices",
+    title: "最佳实践",
     description:
-      "I adhere to best practices and standards to guarantee that the codebase remains maintainable and scalable.",
+      "我遵循最佳实践和标准，确保代码库保持可维护性和可扩展性。",
     color: "bg-emerald-500",
     initialPosition: "translate-x-0 lg:translate-x-[40px]",
     initialRotate: "rotate-0 lg:-rotate-2",
   },
   {
-    title: "Well Documented",
+    title: "详细文档",
     description:
-      "Thoroughly documented with videos explaining features, making it easy for developers to understand.",
+      "提供详细的文档和视频说明功能，让开发者轻松理解和使用。",
     color: "bg-cyan-500",
     initialPosition: "translate-x-0 lg:translate-x-[-40px]",
     initialRotate: "rotate-0 lg:rotate-2",
   },
   {
-    title: "Easy to Customize",
+    title: "易于定制",
     description:
-      "Lemonrepo offers easy customization with sensible abstractions, enabling developers to tailor it to their specific needs.",
+      "Temu 全能宗师提供易于定制的功能，通过合理的抽象设计，让开发者能够根据特定需求进行定制。",
     color: "bg-indigo-500",
     initialPosition: "translate-x-0 lg:translate-x-[-80px]",
     initialRotate: "rotate-0 lg:-rotate-2",
   },
 ];
 const items = [
-  "Nuxt UI Components",
-  "Radix Vue Primitives",
-  "Tailwind CSS",
-  "Auto Drizzle Studio Support",
-  "Nuxt Auth Utils",
-  "Nuxt Scripts",
-  "Nuxt Fonts",
-  "Free Plan Demo",
-  "Waitlist Demo",
-  "Email Verification Templates",
-  "Image Gallery Demo",
-  "Clean Codebase",
-  "Beautiful UI",
-  "Easy to Customize",
-  "Beginner Friendly",
-  "Dark Mode",
-  "Mobile Friendly",
-  "Dashboard Demo",
-  "Serverless Stack",
-  "Rich Documentation",
-  "Works on Cloudflare Pages/Workers",
-  "Tips to improve production performance",
-  "News Letter Signup",
-  "Customizable UI",
-  "ShadCN Vue Compatible",
-  "Zod Validated forms",
-  "VueUse Utils",
-  "Hashing Utils compatible with Edge Functions",
-  "Filters and Text search examples",
+  "商品管理",
+  "订单处理",
+  "库存同步",
+  "数据分析",
+  "多平台管理",
+  "跨境物流",
+  "支付结算",
+  "客户管理",
+  "营销推广",
+  "供应商管理",
+  "商品分类",
+  "价格策略",
+  "库存预警",
+  "销售统计",
+  "客户分析",
+  "竞品监控",
+  "自动补货",
+  "多语言支持",
+  "移动端适配",
+  "API集成",
+  "数据安全",
+  "实时同步",
+  "批量操作",
+  "自定义报表",
+  "邮件通知",
+  "短信提醒",
+  "多店铺管理",
+  "权限管理",
+  "操作日志",
 ];
 
 const getExperienceClasses = computed(() => (experience) => [

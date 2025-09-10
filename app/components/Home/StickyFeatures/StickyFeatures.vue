@@ -9,53 +9,53 @@
       <h2
         class="mx-auto max-w-xl text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 font-display"
       >
-        Lemonrepo has everything you need to build a SaaS
+        Temu 全能宗师拥有构建跨境电商系统所需的一切功能
       </h2>
       <p class="mx-auto mt-4 max-w-xl text-gray-600 text-2xl">
-        Made to launch without the headache.
+        专为轻松启动而设计。
       </p>
     </div>
     <div class="lg:sticky lg:top-0 lg:h-screen space-y-12 lg:space-y-0">
       <HomeStickyFeaturesSection
-        title="Authentication"
-        heading="Easy Login and User Management"
-        description="We're all famililar with the pain of writing auth logic and the amount of use cases that come with it. I wanted to make it stupid simple and easy to use."
+        title="用户认证"
+        heading="简单的登录和用户管理"
+        description="我们都熟悉编写认证逻辑的痛苦以及随之而来的各种用例。我想让它变得非常简单易用。"
       >
         <HomeStickyFeaturesVideo
           src="https://essentials.supersaas.dev/essentials_passkeys.mp4"
         />
       </HomeStickyFeaturesSection>
       <HomeStickyFeaturesSection
-        title="Payments"
-        heading="Simple Billing Management"
-        description="Supports Stripe and Lemonsqueezy with a simple and easy to use unified composable."
+        title="支付管理"
+        heading="简单的计费管理"
+        description="支持Stripe和Lemonsqueezy，提供简单易用的统一组合式接口。"
       >
         <HomeStickyFeaturesVideo
           src="https://essentials.supersaas.dev/essentials_posts-subs.mp4"
         />
       </HomeStickyFeaturesSection>
       <HomeStickyFeaturesSection
-        title="Profile Settings"
-        heading="Let users update their profile info"
-        description="A simple way for users to manage and update their profile settings. It's not just functions, it looks beautiful."
+        title="个人设置"
+        heading="让用户更新个人信息"
+        description="用户管理和更新个人设置的简单方式。不仅仅是功能，看起来也很美观。"
       >
         <HomeStickyFeaturesVideo
           src="https://essentials.supersaas.dev/essentials_settings.mp4"
         />
       </HomeStickyFeaturesSection>
       <HomeStickyFeaturesSection
-        title="File Storage"
-        heading="Supports S3, Local file storage and NuxtHub"
-        description="A unified composable for file storage with demos for Client Upload, Server upload and more."
+        title="文件存储"
+        heading="支持S3、本地文件存储和NuxtHub"
+        description="统一的文件存储组合式接口，包含客户端上传、服务器上传等演示。"
       >
         <HomeStickyFeaturesVideo
           src="https://essentials.supersaas.dev/essentials_file-storage.mp4"
         />
       </HomeStickyFeaturesSection>
       <HomeStickyFeaturesSection
-        title="Admin"
-        heading="A beautiful admin panel"
-        description="Manage users, ban users, manage subscriptions. View waitlist submissions. View all your transactions from Stripe or Lemonsqueezy. All in one place"
+        title="管理后台"
+        heading="美观的管理面板"
+        description="管理用户、封禁用户、管理订阅。查看候补名单提交。查看所有来自Stripe或Lemonsqueezy的交易。一站式管理"
       >
         <HomeStickyFeaturesVideo
           src="https://essentials.supersaas.dev/essentials_admin.mp4"

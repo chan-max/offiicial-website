@@ -1,9 +1,9 @@
 <template>
-  <AdminPageContainer title="Settings">
+  <AdminPageContainer title="系统设置">
     <div class="space-y-12 mt-8">
       <AdminFormSection
-        title="Telegram Notifications"
-        description="Send yourself a telegram notification when a new order is created with the order details"
+        title="Telegram 通知"
+        description="当有新订单创建时，向您发送包含订单详情的Telegram通知"
       >
         <div class="sm:col-span-4">
           <div class="flex items-center gap-2">
@@ -13,13 +13,13 @@
               :disabled="loading"
               @change="toggleTelegramNotifications"
             />
-            <p>{{ enabled ? "Enabled" : "Disabled" }}</p>
+            <p>{{ enabled ? "已启用" : "已禁用" }}</p>
           </div>
         </div>
       </AdminFormSection>
       <AdminFormSection
-        title="Website Banner"
-        description="Show a banner on top of the header. Promote something, make announcements."
+        title="网站横幅"
+        description="在页面顶部显示横幅。用于推广产品或发布公告。"
       >
         <UForm :schema="bannerSchema" :state="bannerState" class="space-y-4 col-span-4" @submit="onBannerSubmit">
           <div class="sm:col-span-4">
@@ -28,25 +28,25 @@
               :loading="bannerLoading"
               :disabled="bannerLoading"
             />
-            <p>{{ bannerState.enabled ? "Enabled" : "Disabled" }}</p>
+            <p>{{ bannerState.enabled ? "已启用" : "已禁用" }}</p>
           </div>
           <div class="sm:col-span-4">
             <UFormGroup
-              label="Title"
+              label="标题"
               name="title"
               size="lg"
-              help="Shown in bold, keep it small 1 - 2 words"
+              help="以粗体显示，保持简短 1-2 个词"
             >
               <UInput v-model="bannerState.title" :disabled="!bannerState.enabled" />
             </UFormGroup>
           </div>
           <div class="sm:col-span-4">
-            <UFormGroup label="Subtitle" name="subtitle" size="lg">
+            <UFormGroup label="副标题" name="subtitle" size="lg">
               <UInput v-model="bannerState.subtitle" :disabled="!bannerState.enabled" />
             </UFormGroup>
           </div>
           <div class="sm:col-span-4">
-            <UButton type="submit" label="Save" size="lg" :loading="bannerLoading" />
+            <UButton type="submit" label="保存" size="lg" :loading="bannerLoading" />
           </div>
         </UForm>
       </AdminFormSection>
@@ -87,7 +87,7 @@ const toggleTelegramNotifications = async () => {
   loading.value = false;
   enabled.value = !enabled.value;
   toast.success(
-    `Telegram notifications ${enabled.value ? "enabled" : "disabled"}`
+    `Telegram 通知已${enabled.value ? "启用" : "禁用"}`
   );
 };
 
@@ -98,9 +98,9 @@ const onBannerSubmit = async (event) => {
       method: "PATCH",
       body: event.data,
     });
-    toast.success("Website banner settings updated");
+    toast.success("网站横幅设置已更新");
   } catch (error) {
-    toast.error("Failed to update website banner settings");
+    toast.error("更新网站横幅设置失败");
   } finally {
     bannerLoading.value = false;
   }

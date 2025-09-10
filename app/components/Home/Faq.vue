@@ -5,10 +5,10 @@
         <h2
           class="max-w-2xl text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 font-display"
         >
-          Got Questions? We've got some answers!
+          有问题？我们有答案！
         </h2>
         <p class="mt-12 max-w-2xl text-gray-600 text-2xl">
-          If you have any other questions, feel free to reach out to me at
+          如果您还有其他问题，请随时联系我：
           <button
             variant="link"
             class="underline"
@@ -16,9 +16,9 @@
             color="gray"
             @click="copy('fayaz@supersaas.dev')"
           >
-            {{ copied ? "Copied to clipboard" : "fayaz@supersaas.dev" }}
+            {{ copied ? "已复制到剪贴板" : "fayaz@supersaas.dev" }}
           </button>
-          I'm happy to help!
+          我很乐意为您提供帮助！
         </p>
       </div>
       <UAccordion
@@ -39,61 +39,60 @@ const { copy, copied } = useClipboard();
 
 const items = [
   {
-    label: "Can I try this product for free?",
+    label: "我可以免费试用这个产品吗？",
     content:
-      "You can can try the demo, you can also check the docs for videos and tutorials, where I explain the product in detail.",
+      "您可以试用演示版本，也可以查看文档中的视频和教程，我会详细解释产品的每个功能。",
   },
   {
-    label: "What does Lifetime access mean?",
+    label: "终身访问是什么意思？",
     content:
-      "You get access to all the updates and releases that I push to the project. You can also raise issues and feature requests on GitHub.",
+      "您将获得我推送到项目的所有更新和版本的访问权限。您也可以在GitHub上提出问题和功能请求。",
   },
   {
-    label: "Javascript or Typescript?",
+    label: "JavaScript还是TypeScript？",
     content:
-      "Lemonrepo is made with Javascript, but some utilities are written in Typescript.",
+      "Temu 全能宗师使用JavaScript构建，但一些工具是用TypeScript编写的。",
   },
   {
-    label: "What's the tech stack?",
+    label: "技术栈是什么？",
     content:
-      "Lemonrepo is made with Nuxt 3 the fullstack framework, Tailwind CSS for CSS, Nuxt Auth Utils for authentication, Drizzle ORM for database, AWS S3, Nuxthub Blob and Local Storage for file storage, Stripe and Lemonsqueezy for payments, Resend, Sendgrid, Postmark, Plunk for emails, and more.",
+      "Temu 全能宗师使用Nuxt 3全栈框架、Tailwind CSS样式、Nuxt Auth Utils认证、Drizzle ORM数据库、AWS S3、Nuxthub Blob和本地存储文件存储、Stripe和Lemonsqueezy支付、Resend、Sendgrid、Postmark、Plunk邮件服务等。",
   },
   {
-    label: "What happens after I purchase a template?",
+    label: "购买模板后会发生什么？",
     content:
-      "After you purchase the template, you will be invited to the respective github repository. You can then fork the repository and start building your project.",
+      "购买模板后，您将被邀请到相应的GitHub仓库。然后您可以fork仓库并开始构建您的项目。",
   },
   {
-    label: "Do you offer refunds?",
+    label: "你们提供退款吗？",
     content:
-      "Unfortunately due to the nature of this product, where you get complete access to the codebase, and I have no way to verify if you have used it, I cannot offer refunds.",
+      "不幸的是，由于产品的性质，您将获得代码库的完全访问权限，我无法验证您是否使用过，因此无法提供退款。",
   },
   {
-    label:
-      "I did not like the product, and I haven't used it. Can I get a refund?",
+    label: "我不喜欢这个产品，而且没有使用过。可以退款吗？",
     content:
-      "I strongly recommend reaching out to me in case you have doubts about Lemonrepo, I will gladly give you an entire tour of the procuct and how to use it. I can also help you with any questions you have. This way you can decide if you want to purchase the product or not.",
+      "我强烈建议如果您对Temu 全能宗师有疑问，请联系我。我很乐意为您提供完整的产品介绍和使用方法。我也可以帮助您解决任何问题。这样您就可以决定是否要购买产品。",
   },
   {
-    label: "Can I use Lemonrepo for open source projects?",
-    content: "No, this will break the license, I hope you understand.",
+    label: "我可以将Temu 全能宗师用于开源项目吗？",
+    content: "不可以，这会违反许可证，希望您能理解。",
   },
   {
-    label: "Can I use Lemonrepo for client projects?",
-    content: "Yes you can, use it for as many projects as you like.",
+    label: "我可以将Temu 全能宗师用于客户项目吗？",
+    content: "是的，您可以将其用于任意数量的项目。",
   },
   {
-    label: "Can I use Lemonrepo for commercial projects?",
-    content: "Yes you can, Lemonrepo was made for this very purpose.",
+    label: "我可以将Temu 全能宗师用于商业项目吗？",
+    content: "是的，Temu 全能宗师就是为此目的而制作的。",
   },
   {
-    label: "Can I resell this product?",
-    content: "Absolutely not, please read the license for more details.",
+    label: "我可以转售这个产品吗？",
+    content: "绝对不可以，请阅读许可证了解详细信息。",
   },
   {
-    label: "Do you offer technical support?",
+    label: "你们提供技术支持吗？",
     content:
-      "Yes, as long as it's related to the template codebase. I cannot help with your business logic or customizations that you may have made.",
+      "是的，只要是与模板代码库相关的问题。我无法帮助您的业务逻辑或您可能进行的自定义修改。",
   },
 ];
 </script>

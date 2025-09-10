@@ -5,7 +5,7 @@
     >
       <div class="flex items-center gap-5">
         <NuxtLink to="/" class="flex items-center gap-2">
-          <Logo class="h-8 w-auto" role="img" alt="Lemonrepo logo" />
+          <Logo class="h-8 w-auto" role="img" alt="Temu 全能宗师 Logo" />
           <p class="font-bold tracking-tight">Temu 全能宗师</p>
         </NuxtLink>
         <NavbarWhatsNew />
@@ -17,10 +17,10 @@
           target="_blank"
           variant="ghost"
           color="gray"
-          >Demo</UButton
+          >演示</UButton
         >
-        <UButton to="/#faq" variant="ghost" color="gray">FAQ</UButton>
-        <UButton to="/#" variant="ghost" color="gray">Docs</UButton>
+        <UButton to="/#faq" variant="ghost" color="gray">常见问题</UButton>
+        <UButton to="/#" variant="ghost" color="gray">文档</UButton>
         <ScriptLemonSqueezy class="w-full block">
           <UButton
             :ui="{ rounded: 'rounded-full' }"
@@ -28,13 +28,13 @@
             :to="productUrl"
             class="shiny-button px-6 py-2"
           >
-            Buy now for $149
+            Buy now for ¥999
           </UButton>
         </ScriptLemonSqueezy>
       </div>
       <div class="sm:hidden flex items-center gap-2">
         <ScriptLemonSqueezy class="w-full block">
-          <UButton label="Buy Now for $149" color="black" :to="productUrl" />
+          <UButton label="立即购买 ¥999" color="black" :to="productUrl" />
         </ScriptLemonSqueezy>
         <button
           aria-label="Toggle menu"
@@ -63,7 +63,7 @@
           @click="toggleMobileMenu"
           variant="ghost"
           color="gray"
-          >Faq</UButton
+          >常见问题</UButton
         >
         <UButton
           to="https://demo.supersaas.dev"
@@ -72,14 +72,14 @@
           @click="toggleMobileMenu"
           variant="ghost"
           color="gray"
-          >Demo</UButton
+          >演示</UButton
         >
         <UButton
           to="/#docs"
           @click="toggleMobileMenu"
           variant="ghost"
           color="gray"
-          >Docs</UButton
+          >文档</UButton
         >
       </div>
     </div>

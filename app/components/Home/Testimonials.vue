@@ -5,11 +5,10 @@
         <h2
           class="max-w-2xl text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 font-display"
         >
-          What people are saying about Lemonhub
+          用户对Temu 全能宗师的评价
         </h2>
         <p class="mt-4 max-w-xl text-gray-600 text-2xl">
-          50+ developers shipping apps in production using Lemonhub. They seem
-          to love it.
+          50+开发者正在生产环境中使用Temu 全能宗师发布应用。他们似乎很喜欢它。
         </p>
       </div>
       <div
@@ -56,12 +55,12 @@
 <script setup>
 const testimonials = [
   {
-    title: "Super Powerful",
+    title: "超级强大",
     quote:
-      "The stack that Supersaas is built upon is super powerful and easy to work with, especially when used with NuxtHub / Cloudflare. Fayaz has been super helpful in making it work and adopting feedback.",
+      "Temu 全能宗师构建的技术栈非常强大且易于使用，特别是与NuxtHub / Cloudflare结合使用时。Fayaz在使其工作并采纳反馈方面非常有帮助。",
     author: {
       name: "Tim Pulver",
-      description: "Freelancer/Software Engineer",
+      description: "自由职业者/软件工程师",
       avatar: {
         src: "https://pbs.twimg.com/profile_images/985092522329468928/qcfeEMbF_400x400.jpg",
         loading: "lazy",
@@ -69,12 +68,12 @@ const testimonials = [
     },
   },
   {
-    title: "Features i would buy it for",
+    title: "值得购买的功能",
     quote:
-      "This is really well made! especially with features like passkey and hooks for everything. These are the features i would buy it for",
+      "这真的很棒！特别是像passkey和所有功能的hooks这样的特性。这些就是我购买它的原因。",
     author: {
       name: "Rishi Mohan",
-      description: "Founder, Pika.Style",
+      description: "创始人, Pika.Style",
       avatar: {
         src: "https://pbs.twimg.com/profile_images/1792311421994147840/ZO_-Kmol_400x400.jpg",
         loading: "lazy",
@@ -82,11 +81,11 @@ const testimonials = [
     },
   },
   {
-    title: "Fantastic",
-    quote: "👆🏻 As a customer I can confirm, it's fantastic 🔥",
+    title: "太棒了",
+    quote: "👆🏻 作为客户我可以确认，它太棒了 🔥",
     author: {
       name: "Thomas Sanlis",
-      description: "Founder, Unned.best",
+      description: "创始人, Unned.best",
       avatar: {
         src: "https://essentials.supersaas.dev/thomas.jpg",
         loading: "lazy",
@@ -94,12 +93,12 @@ const testimonials = [
     },
   },
   {
-    title: "Absolute time saver",
+    title: "绝对的时间节省器",
     quote:
-      "It's an absolute time saver! If you are a freelancer or keep building things, get this! ✨",
+      "这绝对是一个时间节省器！如果你是自由职业者或经常构建项目，一定要试试这个！✨",
     author: {
       name: "Mushtaq Ahmed",
-      description: "Senior Product Engineer, Locale.ai",
+      description: "高级产品工程师, Locale.ai",
       avatar: {
         src: "https://pbs.twimg.com/profile_images/1823266963553964032/CTnrLhkL_400x400.jpg",
         loading: "lazy",
@@ -107,11 +106,11 @@ const testimonials = [
     },
   },
   {
-    title: "Satisfaction 100%",
-    quote: "I’m very satisfied of your boilerplate. Thanks!",
+    title: "满意度100%",
+    quote: "我对你的模板非常满意。谢谢！",
     author: {
       name: "Lilian",
-      description: "SoftwareEngineer",
+      description: "软件工程师",
       avatar: {
         src: "",
         loading: "lazy",
@@ -119,12 +118,12 @@ const testimonials = [
     },
   },
   {
-    title: "Simple yet awesome",
+    title: "简单而优秀",
     quote:
-      "I was struggling with implementing payment and auth in my side projects when I found http://supersaas.dev . Its super simple, with all the necessary things bundled together with proper documentation and abstractions. I got to launch my project in a days work and didnt have to think about the logistics of wiring everything up and was just able to concentrate on my core product. If that aint super i dont know what is.. the founder support is again amazing. He got on a call to ensure everything was implemented correctl",
+      "我在为我的副项目实现支付和认证功能时遇到了困难，直到我发现了Temu 全能宗师。它超级简单，包含了所有必要的东西，并且有适当的文档和抽象。我在一天内就成功发布了我的项目，不需要考虑所有复杂的集成工作，只需要专注于我的核心产品。如果这不算超级，我不知道什么才算。创始人的支持也很棒。他通过电话确保一切都能正确实施。",
     author: {
       name: "Sooraj",
-      description: "Backend Engineer",
+      description: "后端工程师",
       avatar: {
         src: "https://pbs.twimg.com/profile_images/1823407485002113024/6pxHkYUj_400x400.jpg",
         loading: "lazy",
@@ -132,12 +131,12 @@ const testimonials = [
     },
   },
   {
-    title: "Love it!",
+    title: "很喜欢！",
     quote:
-      "Really well made. Great news! Im playing with Supersaas template and its been amazing! Learned a lot. Thinking about starting to build something with it. Love it!",
+      "制作精良。好消息！我正在使用Temu 全能宗师模板，体验非常棒！学到了很多。正在考虑用它来构建一些东西。很喜欢！",
     author: {
       name: "Alexandr Os",
-      description: "Engineer and Foudnder",
+      description: "工程师和创始人",
       avatar: {
         src: "https://pbs.twimg.com/profile_images/1811928265621229568/ejtIodY5_400x400.jpg",
         loading: "lazy",
@@ -145,12 +144,12 @@ const testimonials = [
     },
   },
   {
-    title: "Saving me a shit ton of time",
+    title: "为我节省了大量时间",
     quote:
-      "Using these for my side project. This is saving me a shit ton of time and effort. Really happy I purchased this.",
+      "我在我的副项目中使用这些。这为我节省了大量时间和精力。真的很高兴我购买了这个。",
     author: {
       name: "Attaullah F",
-      description: "Senior Engineer, Congnizant",
+      description: "高级工程师, Cognizant",
       avatar: {
         src: "https://essentials.supersaas.dev/62116.jpg",
         loading: "lazy",

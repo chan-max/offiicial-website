@@ -4,11 +4,10 @@
       <h1
         class="font-display text-4xl sm:text-5xl font-bold tracking-tight text-black"
       >
-        Activate License
+        激活许可证
       </h1>
       <p class="max-w-xl text-gray-600 text-xl">
-        You need to activate your license to use Lemonrepo. Please enter the
-        github username you want to activate the license for.
+        您需要激活许可证才能使用跨境商城大师。请输入您要激活许可证的GitHub用户名。
       </p>
       <UForm
         class="space-y-6"
@@ -16,17 +15,17 @@
         :state="state"
         @submit="onSubmit"
       >
-        <UFormGroup label="GitHub Username" name="username" required size="lg">
-          <UInput placeholder="Your github username" v-model="state.username" />
+        <UFormGroup label="GitHub 用户名" name="username" required size="lg">
+          <UInput placeholder="您的GitHub用户名" v-model="state.username" />
         </UFormGroup>
-        <UFormGroup label="License Key" name="licenseKey" required size="lg">
-          <UInput placeholder="Your license key" v-model="state.licenseKey" />
+        <UFormGroup label="许可证密钥" name="licenseKey" required size="lg">
+          <UInput placeholder="您的许可证密钥" v-model="state.licenseKey" />
         </UFormGroup>
         <UButton
           :loading="loading"
           :disabled="loading"
           type="submit"
-          label="Activate License"
+          label="激活许可证"
           size="lg"
           color="black"
           block
@@ -44,7 +43,7 @@
             class="h-20 w-20 mx-auto block text-green-500 my-6"
           />
           <p class="text-lg font-bold text-center">
-            License activated successfully
+            许可证激活成功
           </p>
           <div
             class="p-2 border border-gray-200 text-center rounded-lg text-gray-600 font-semibold text-sm"
@@ -59,7 +58,7 @@
               size="xs"
             />
             {{ state.username }}
-            has been granted access to our GitHub repository.
+            已被授予访问我们GitHub仓库的权限。
           </p>
         </div>
         <div class="grid grid-cols-2 relative mt-1">
@@ -67,10 +66,10 @@
             variant="ghost"
             color="gray"
             block
-            @click="copy('fayaz@supersaas.dev')"
+            @click="copy('support@crossborder-master.com')"
             class="text-gray-400 font-normal"
           >
-            {{ copied ? "Copied to clipboard" : "help@supersaas.dev" }}
+            {{ copied ? "已复制到剪贴板" : "support@crossborder-master.com" }}
           </UButton>
           <UDivider
             orientation="vertical"
@@ -80,11 +79,11 @@
             variant="ghost"
             color="gray"
             block
-            to="https://github.com/supersaashq/essentials"
+            to="https://github.com/crossborder-master/essentials"
             target="_blank"
             class="text-gray-400 font-normal"
           >
-            Open GitHub
+            打开GitHub
           </UButton>
         </div>
       </div>
@@ -103,8 +102,8 @@ const { lemonSqueezyUrl } = useRuntimeConfig().public;
 const { copy, copied } = useClipboard();
 const loading = ref(false);
 const schema = z.object({
-  username: z.string().min(1).max(39, "Invalid username"),
-  licenseKey: z.string().length(36, "Invalid license key"),
+  username: z.string().min(1).max(39, "无效的用户名"),
+  licenseKey: z.string().length(36, "无效的许可证密钥"),
 });
 const licenseActivated = ref(false);
 const state = reactive({

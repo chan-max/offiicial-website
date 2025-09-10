@@ -6,7 +6,7 @@ const loading = ref(false);
 const { fetch: refreshSession } = useUserSession();
 
 const schema = z.object({
-  password: z.string().min(1, "Password is required"),
+  password: z.string().min(1, "密码是必需的"),
 });
 
 const state = reactive({
@@ -24,7 +24,7 @@ async function login(event) {
     return navigateTo("/admin");
   } catch (error) {
     loading.value = false;
-    toast.error(error.data.message || "Something went wrong");
+    toast.error(error.data.message || "出现错误");
   }
 }
 </script>
@@ -36,7 +36,7 @@ async function login(event) {
         <UInput
           v-model="state.password"
           type="password"
-          placeholder="Password"
+          placeholder="密码"
         />
       </UFormGroup>
 
@@ -47,7 +47,7 @@ async function login(event) {
         block
         size="lg"
       >
-        Login
+        登录
       </UButton>
     </UForm>
   </main>

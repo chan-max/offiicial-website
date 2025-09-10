@@ -4,29 +4,29 @@
     <h1
       class="text-4xl sm:text-6xl lg:text-7xl tracking-tight text-gray-800 font-bold text-center font-display max-w-4xl mx-auto"
     >
-      The No Nonsense
+      专业级
       <span
         class="inline-flex flex-col h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] sm:h-[calc(theme(fontSize.6xl)*theme(lineHeight.tight))] lg:h-[calc(theme(fontSize.7xl)*theme(lineHeight.tight))] overflow-hidden"
       >
         <ul
           class="block text-left leading-tight [&_li]:block animate-text-slide-5"
         >
-          <li>Nuxt</li>
-          <li>Next</li>
-          <li>Astro</li>
-          <li>Vue</li>
-          <li>React</li>
-          <li aria-hidden="true">Nuxt</li>
+          <li>商品管理</li>
+          <li>订单处理</li>
+          <li>库存同步</li>
+          <li>数据分析</li>
+          <li>多平台</li>
+          <li aria-hidden="true">商品管理</li>
         </ul>
       </span>
-      <span class="block"> AI SaaS Kit</span>
+      <span class="block"> 跨境电商解决方案</span>
     </h1>
     <div class="mt-8">
       <div
         class="max-w-max mx-auto rounded-xl bg-gray-100 ring-4 ring-gray-500/10 border p-1 space-y-2"
       >
         <BuyButton
-          label="Buy Now for $149"
+          label="立即购买 ¥999"
           class="flex items-center justify-center w-full"
           size="md"
           rounded="lg"
@@ -35,8 +35,7 @@
           <div class="flex items-center gap-2">
             <Icon name="i-ph-sparkle-duotone" class="h-5 w-6" />
             <p class="text-gray-800">
-              <span class="font-semibold">$100 off</span> for the first 100
-              Customers
+              <span class="font-semibold">限时优惠</span> 前100名用户享受特价
             </p>
           </div>
           <div class="flex items-center gap-2 mt-2">
@@ -46,7 +45,7 @@
               class="flex-1"
               aria-label="Progress of the offer"
             />
-            <span class="text-xs text-gray-500">{{ count }}/100 used</span>
+            <span class="text-xs text-gray-500">{{ count }}/100 已售出</span>
           </div>
         </div>
       </div>

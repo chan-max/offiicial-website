@@ -1,10 +1,10 @@
 <template>
-  <AdminPageContainer title="Customers">
+  <AdminPageContainer title="客户管理">
     <template #actions>
       <div
         class="flex items-center gap-2 bg-gray-100 dark:bg-gray-800 rounded-full py-1.5 px-2.5 text-xs"
       >
-        <p class="text-gray-500 dark:text-gray-400">Mask User Data</p>
+        <p class="text-gray-500 dark:text-gray-400">隐藏用户数据</p>
         <UToggle v-model="maskUserData" />
       </div>
     </template>

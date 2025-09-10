@@ -5,10 +5,10 @@
         <h2
           class="mx-auto max-w-xl text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 font-display"
         >
-          How Lemonrepo works?
+          Temu 全能宗师是如何工作的？
         </h2>
         <p class="mx-auto mt-4 max-w-xl text-gray-600 text-2xl">
-          Get started with Lemonrepo in just 3 minutes.
+          3分钟快速上手Temu 全能宗师
         </p>
       </div>
       <div class="relative">
@@ -18,7 +18,7 @@
         />
         <NuxtImg
           src="https://i.ytimg.com/vi/MFAmnD5InIo/maxresdefault.jpg"
-          alt="Supersaas Video Intro"
+          alt="Temu 全能宗师介绍视频"
           class="max-w-3xl mx-auto mt-8 rounded-xl overflow-hidden cursor-pointer metal-shadow"
           sizes="sm:50vw md:400px"
           @click="isOpen = true"
