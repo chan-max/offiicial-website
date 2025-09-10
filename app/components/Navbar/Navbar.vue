@@ -6,7 +6,7 @@
       <div class="flex items-center gap-5">
         <NuxtLink to="/" class="flex items-center gap-2">
           <Logo class="h-8 w-auto" role="img" alt="Lemonrepo logo" />
-          <p class="font-bold tracking-tight">Lemonrepo</p>
+          <p class="font-bold tracking-tight">Temu 全能宗师</p>
         </NuxtLink>
         <NavbarWhatsNew />
       </div>
