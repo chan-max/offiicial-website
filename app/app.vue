@@ -10,8 +10,8 @@
 <script setup>
 import { Toaster } from "vue-sonner";
 useSeoMeta({
-  title: "Lemonrepo - Sell access to private GitHub repositories",
-  description: "Sell templates, codebases, websites, and more with Lemonrepo.",
+  title: "Temu 全能宗师 - 专业级跨境电商解决方案",
+  description: "Temu 全能宗师是专业的跨境电商管理系统，提供商品管理、订单处理、库存同步、数据分析、多平台管理等全套解决方案，助力跨境电商业务快速发展。",
   ogImage: "https://supersaas.dev/og-image.png",
 });
 </script>
