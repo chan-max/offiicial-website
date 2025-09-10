@@ -3,11 +3,8 @@ export default defineNuxtConfig({
   compatibilityDate: "2024-07-30",
   future: { compatibilityVersion: 4 },
   modules: [
-    "@nuxthub/core",
     "@nuxt/ui",
-    "@nuxt/scripts",
     "@nuxt/fonts",
-    "nuxt-auth-utils",
     "@nuxt/image",
     "@nuxt/icon",
   ],
@@ -36,9 +33,6 @@ export default defineNuxtConfig({
       ],
     },
   },
-  hub: {
-    kv: true,
-  },
   colorMode: {
     preference: "light",
   },
@@ -51,21 +45,6 @@ export default defineNuxtConfig({
       },
     ],
   },
-  runtimeConfig: {
-    session: {
-      maxAge: 60 * 60 * 24 * 7,
-    },
-    LEMONSQUEEZY_API_KEY: process.env.LEMONSQUEEZY_API_KEY,
-    LEMONSQUEEZY_STORE_ID: process.env.LEMONSQUEEZY_STORE_ID,
-    lemonSqueezyWebhookSecret: process.env.LEMONSQUEEZY_WEBHOOK_SECRET,
-    githubOwner: process.env.GITHUB_OWNER,
-    githubToken: process.env.GITHUB_TOKEN,
-    githubRepo: process.env.GITHUB_REPO,
-    telegramBotToken: process.env.TELEGRAM_BOT_TOKEN,
-    telegramChatId: process.env.TELEGRAM_CHAT_ID,
-    public: {
-      productUrl: process.env.LEMONSQUEEZY_PRODUCT_URL,
-    },
-  },
   devtools: { enabled: true },
+  ssr: false
 });

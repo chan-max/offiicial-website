@@ -68,15 +68,19 @@
 <script setup>
 const stickySectionsContainer = ref(null);
 
+let stickySectionsInstance = null;
+
 onMounted(() => {
-  const stickySectionsInstance = new StickySections(
+  stickySectionsInstance = new StickySections(
     stickySectionsContainer.value
   );
   window.addEventListener("scroll", stickySectionsInstance.onScroll);
+});
 
-  onBeforeUnmount(() => {
+onBeforeUnmount(() => {
+  if (stickySectionsInstance) {
     window.removeEventListener("scroll", stickySectionsInstance.onScroll);
-  });
+  }
 });
 
 class StickySections {
