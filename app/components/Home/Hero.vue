@@ -35,7 +35,7 @@
           <button
             @click="downloadApp"
             :disabled="!appData?.appUrl || isDownloading"
-            class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 disabled:from-gray-400 disabled:to-gray-500 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-200 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl disabled:shadow-none"
+            class="w-full bg-gradient-to-r from-gray-800 to-black hover:from-gray-900 hover:to-gray-800 disabled:from-gray-400 disabled:to-gray-500 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-200 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl disabled:shadow-none"
           >
             <Icon 
               :name="isDownloading ? 'i-ph-spinner-duotone' : 'i-ph-download-duotone'" 
@@ -198,11 +198,11 @@ const downloadApp = async () => {
     const recordSuccess = await recordDownload();
     
     if (recordSuccess) {
-      // 创建下载链接
+      // 创建下载链接（移除target="_blank"避免页面跳转）
       const link = document.createElement('a');
       link.href = appData.value.appUrl;
       link.download = `iuufu-client-${appData.value.appVersionCode}.apk`;
-      link.target = '_blank';
+      // 移除 target="_blank" 避免页面跳转
       
       // 触发下载
       document.body.appendChild(link);
@@ -221,7 +221,7 @@ const downloadApp = async () => {
       const link = document.createElement('a');
       link.href = appData.value.appUrl;
       link.download = `iuufu-client-${appData.value.appVersionCode}.apk`;
-      link.target = '_blank';
+      // 移除 target="_blank" 避免页面跳转
       
       document.body.appendChild(link);
       link.click();
