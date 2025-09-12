@@ -161,7 +161,7 @@ const getWebsiteStats = async () => {
 // 记录下载次数
 const recordDownload = async () => {
   const isDev = process.env.NODE_ENV === 'development';
-  const baseUrl = isDev ? 'http://192.168.1.117:48080' : 'https://www.erp.iuufu.com';
+  const baseUrl = isDev ? 'http://192.168.1.117:48080' : 'https://www.erp.iuufu.com/api';
   const url = `${baseUrl}/app-api/client/open/website/stats/incr-download`;
   
   try {
