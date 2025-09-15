@@ -53,105 +53,135 @@
 </template>
 
 <script setup>
+
+
 const testimonials = [
   {
-    title: "超级强大",
+    title: "真管用",
     quote:
-      "Temu 全能宗师构建的技术栈非常强大且易于使用，特别是与NuxtHub / Cloudflare结合使用时。Fayaz在使其工作并采纳反馈方面非常有帮助。",
+      "核价、报名这些常用事儿都能一站搞定，来回折腾少了，用着顺手。",
     author: {
-      name: "Tim Pulver",
-      description: "自由职业者/软件工程师",
+      name: "邹良栋",
+      description: "跨境商家店主",
       avatar: {
-        src: "https://pbs.twimg.com/profile_images/985092522329468928/qcfeEMbF_400x400.jpg",
+        src: "https://randomuser.me/api/portraits/men/12.jpg",
         loading: "lazy",
       },
     },
   },
   {
-    title: "值得购买的功能",
+    title: "两分钟上手",
     quote:
-      "这真的很棒！特别是像passkey和所有功能的hooks这样的特性。这些就是我购买它的原因。",
+      "页面清爽，批量功能一键就走，新人看两分钟就能上手。",
     author: {
-      name: "Rishi Mohan",
-      description: "创始人, Pika.Style",
+      name: "金厚达",
+      description: "电商运营",
       avatar: {
-        src: "https://pbs.twimg.com/profile_images/1792311421994147840/ZO_-Kmol_400x400.jpg",
+        src: "https://randomuser.me/api/portraits/men/15.jpg",
         loading: "lazy",
       },
     },
   },
   {
-    title: "太棒了",
-    quote: "👆🏻 作为客户我可以确认，它太棒了 🔥",
-    author: {
-      name: "Thomas Sanlis",
-      description: "创始人, Unned.best",
-      avatar: {
-        src: "https://essentials.supersaas.dev/thomas.jpg",
-        loading: "lazy",
-      },
-    },
-  },
-  {
-    title: "绝对的时间节省器",
+    title: "该有的都有",
     quote:
-      "这绝对是一个时间节省器！如果你是自由职业者或经常构建项目，一定要试试这个！✨",
+      "JIT、库存维护、限流查询都在，日常该用的功能基本齐了。",
     author: {
-      name: "Mushtaq Ahmed",
-      description: "高级产品工程师, Locale.ai",
+      name: "王旭辉",
+      description: "前端工程师",
       avatar: {
-        src: "https://pbs.twimg.com/profile_images/1823266963553964032/CTnrLhkL_400x400.jpg",
+        src: "https://randomuser.me/api/portraits/men/5.jpg",
         loading: "lazy",
       },
     },
   },
   {
-    title: "满意度100%",
-    quote: "我对你的模板非常满意。谢谢！",
-    author: {
-      name: "Lilian",
-      description: "软件工程师",
-      avatar: {
-        src: "",
-        loading: "lazy",
-      },
-    },
-  },
-  {
-    title: "简单而优秀",
+    title: "不绕弯",
     quote:
-      "我在为我的副项目实现支付和认证功能时遇到了困难，直到我发现了Temu 全能宗师。它超级简单，包含了所有必要的东西，并且有适当的文档和抽象。我在一天内就成功发布了我的项目，不需要考虑所有复杂的集成工作，只需要专注于我的核心产品。如果这不算超级，我不知道什么才算。创始人的支持也很棒。他通过电话确保一切都能正确实施。",
+      "批量传实拍、报活动都不绕圈子，步骤清楚，配图配文也不耽误。",
     author: {
-      name: "Sooraj",
-      description: "后端工程师",
+      name: "王丽华",
+      description: "视觉设计师",
       avatar: {
-        src: "https://pbs.twimg.com/profile_images/1823407485002113024/6pxHkYUj_400x400.jpg",
+        src: "https://randomuser.me/api/portraits/women/48.jpg",
         loading: "lazy",
       },
     },
   },
   {
-    title: "很喜欢！",
+    title: "数据一清二楚",
     quote:
-      "制作精良。好消息！我正在使用Temu 全能宗师模板，体验非常棒！学到了很多。正在考虑用它来构建一些东西。很喜欢！",
+      "SKC、多站点、动销、流量都能导，周报直接套模板，复盘一目了然。",
     author: {
-      name: "Alexandr Os",
-      description: "工程师和创始人",
+      name: "武东宇",
+      description: "数据分析师",
       avatar: {
-        src: "https://pbs.twimg.com/profile_images/1811928265621229568/ejtIodY5_400x400.jpg",
+        src: "https://randomuser.me/api/portraits/men/23.jpg",
         loading: "lazy",
       },
     },
   },
   {
-    title: "为我节省了大量时间",
+    title: "稳稳的",
     quote:
-      "我在我的副项目中使用这些。这为我节省了大量时间和精力。真的很高兴我购买了这个。",
+      "定时任务一直按点跑，自动备货、批量下架都稳，我们就不用盯着了。",
     author: {
-      name: "Attaullah F",
-      description: "高级工程师, Cognizant",
+      name: "张昭",
+      description: "跨境小团队负责人",
       avatar: {
-        src: "https://essentials.supersaas.dev/62116.jpg",
+        src: "https://randomuser.me/api/portraits/men/31.jpg",
+        loading: "lazy",
+      },
+    },
+  },
+  {
+    title: "时间直接砍半",
+    quote:
+      "每天上新、核价、导表一条线走下来二十来分钟，之前最少要一小时。",
+    author: {
+      name: "李明哲",
+      description: "运营助理",
+      avatar: {
+        src: "https://randomuser.me/api/portraits/men/27.jpg",
+        loading: "lazy",
+      },
+    },
+  },
+  {
+    title: "对起来不费劲",
+    quote:
+      "导出的字段够全，和我们现成的表头能直接对上，沟通成本低。",
+    author: {
+      name: "陈晓雨",
+      description: "客服专员",
+      avatar: {
+        src: "https://randomuser.me/api/portraits/women/10.jpg",
+        loading: "lazy",
+      },
+    },
+  },
+  {
+    title: "库存心里有数",
+    quote:
+      "缺货预警、库存维护放一起，看一眼就知道哪里要补，出错少多了。",
+    author: {
+      name: "周婷婷",
+      description: "仓库管理员",
+      avatar: {
+        src: "https://randomuser.me/api/portraits/women/37.jpg",
+        loading: "lazy",
+      },
+    },
+  },
+  {
+    title: "报名不折腾",
+    quote:
+      "批量报活动配合拒绝调价，用起来节奏稳，跟得上平台节奏，不用加班赶。",
+    author: {
+      name: "刘志强",
+      description: "跨境采购",
+      avatar: {
+        src: "https://randomuser.me/api/portraits/men/18.jpg",
         loading: "lazy",
       },
     },

@@ -9,7 +9,8 @@
       <h2
         class="mx-auto max-w-xl text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 font-display"
       >
-        Temu 全能宗师拥有构建跨境电商系统所需的一切功能
+      从基础上新到智能备货从流量到利润
+      temu全能宗师承包你99%的跨境琐事
       </h2>
       <p class="mx-auto mt-4 max-w-xl text-gray-600 text-2xl">
         专为轻松启动而设计。

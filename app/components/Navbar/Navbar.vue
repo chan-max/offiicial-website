@@ -5,22 +5,22 @@
     >
       <div class="flex items-center gap-5">
         <NuxtLink to="/" class="flex items-center gap-2">
-          <Logo class="h-8 w-auto" role="img" alt="Temu 全能宗师 Logo" />
-          <p class="font-bold tracking-tight">Temu 全能宗师</p>
+          <Logo class="h-20 w-auto" role="img" alt="Temu 全能宗师 Logo" />
+          <!-- <p class="font-bold tracking-tight">Temu 全能宗师</p> -->
         </NuxtLink>
         <NavbarWhatsNew />
       </div>
       <div class="hidden items-center gap-2 sm:flex">
-        <UButton
+        <!-- <UButton
           to="https://demo.supersaas.dev"
           external
           target="_blank"
           variant="ghost"
           color="gray"
           >演示</UButton
-        >
+        > -->
         <UButton to="/#faq" variant="ghost" color="gray">常见问题</UButton>
-        <UButton to="/#" variant="ghost" color="gray">文档</UButton>
+        <!-- <UButton to="/#" variant="ghost" color="gray">文档</UButton> -->
         <ScriptLemonSqueezy class="w-full block">
           <UButton
             :ui="{ rounded: 'rounded-full' }"
@@ -28,7 +28,7 @@
             :to="productUrl"
             class="shiny-button px-6 py-2"
           >
-            Buy now for ¥999
+            立即体验
           </UButton>
         </ScriptLemonSqueezy>
       </div>

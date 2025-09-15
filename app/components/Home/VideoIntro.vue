@@ -5,10 +5,10 @@
         <h2
           class="mx-auto max-w-xl text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 font-display"
         >
-          Temu 全能宗师是如何工作的？
+      temu全能宗师如何让你更高效
         </h2>
         <p class="mx-auto mt-4 max-w-xl text-gray-600 text-2xl">
-          3分钟快速上手Temu 全能宗师
+          省出重复时间，让精力专注赚钱
         </p>
       </div>
       <div class="relative">

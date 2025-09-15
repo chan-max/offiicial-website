@@ -4,8 +4,8 @@
     <h1
       class="text-4xl sm:text-6xl lg:text-7xl tracking-tight text-gray-800 font-bold text-center font-display max-w-4xl mx-auto"
     >
-      专业级
-      <span
+      <!-- 专业级 -->
+      <!-- <span
         class="inline-flex flex-col h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] sm:h-[calc(theme(fontSize.6xl)*theme(lineHeight.tight))] lg:h-[calc(theme(fontSize.7xl)*theme(lineHeight.tight))] overflow-hidden"
       >
         <ul
@@ -18,8 +18,8 @@
           <li>多平台</li>
           <li aria-hidden="true">商品管理</li>
         </ul>
-      </span>
-      <span class="block"> 跨境电商解决方案</span>
+      </span> -->
+      <span class="block"> 重复任务交给我，爆款机会留给你</span>
     </h1>
     
     <!-- 客户端下载区域 -->
@@ -78,7 +78,7 @@
         class="max-w-max mx-auto rounded-xl bg-gray-100 ring-4 ring-gray-500/10 border p-1 space-y-2"
       >
         <BuyButton
-          label="立即购买 ¥999"
+          label="立即购买 "
           class="flex items-center justify-center w-full"
           size="md"
           rounded="lg"
@@ -110,7 +110,7 @@
 defineProps({
   count: {
     type: Number,
-    default: 0,
+    default: 34,
   },
 });
 

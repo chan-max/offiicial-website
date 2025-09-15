@@ -25,22 +25,22 @@ const testimonials = [
   {
     name: "Fayaz Ahmed",
     avatar: "https://github.com/fayazara.png",
-    text: "👆🏻 As a customer I can confirm, it's fantastic 🔥",
+    text: "👆🏻 亲测好用，功能强大，真的省心省时 🔥",
   },
   {
     name: "Juno Guiera",
     avatar: "https://github.com/juniormc.png",
-    text: "Really satisfied with the product.",
+    text: "对产品非常满意，强烈推荐！",
   },
   {
     name: "Nazish Khan",
     avatar: "https://i.pravatar.cc/400?img=47",
-    text: "Best Purchase of the the month!",
+    text: "本月最值得的一次采购！",
   },
   {
     name: "Jonas K",
     avatar: "https://i.pravatar.cc/400?img=3",
-    text: "Best AI Kit I've ever used!",
+    text: "用过最好的跨境电商工具！",
   },
 ];
 
