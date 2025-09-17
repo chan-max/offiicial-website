@@ -2,7 +2,7 @@
   <section class="pt-20 pb-12">
     <HomeIcons />
     <h1
-      class="text-4xl sm:text-6xl lg:text-7xl tracking-tight text-gray-800 font-bold text-center font-display max-w-4xl mx-auto"
+      class="text-7xl  tracking-tight text-gray-800 font-bold text-center font-display max-w-8xl mx-auto"
     >
       <!-- 专业级 -->
       <!-- <span
